@@ -1,0 +1,2 @@
+model,mcc_median,mcc_ci_low,mcc_ci_high,n_outer_points,ci_overlap_with_top,roc_auc_median,pr_auc_median,balanced_accuracy_median,f1_median,recall_median,specificity_median,precision_median
+lr_elasticnet,0.6668451173307393,0.6101560456468289,0.708939636514663,50,True,0.8928062678062678,0.8927131287685055,0.8223905723905723,0.8,0.7727272727272727,0.8846153846153846,0.8535714285714285

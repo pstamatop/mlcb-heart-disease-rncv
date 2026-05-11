@@ -1,0 +1,22 @@
+{
+  "stage": "tuned_rncv_full_features",
+  "search_strategy": "optuna",
+  "scoring": "mcc",
+  "random_state": 42,
+  "threshold": 0.5,
+  "n_repeats": 10,
+  "n_outer_splits": 5,
+  "n_inner_splits": 3,
+  "n_trials": 50,
+  "model_names": [
+    "catboost",
+    "gnb",
+    "lda",
+    "lightgbm",
+    "lr_elasticnet",
+    "rf",
+    "xgboost"
+  ],
+  "has_feature_selector": false,
+  "timestamp_utc": "2026-05-10T19:37:01.733859+00:00"
+}

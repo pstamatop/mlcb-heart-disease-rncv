@@ -1,0 +1,14 @@
+feature_name,selection_count,selection_frequency
+ca,50,1.0
+cp,50,1.0
+thal,50,1.0
+exang,45,0.9
+oldpeak,45,0.9
+thalach,45,0.9
+slope,44,0.88
+sex,30,0.6
+chol,28,0.56
+restecg,27,0.54
+fbs,16,0.32
+trestbps,9,0.18
+age,7,0.14

@@ -1,0 +1,36 @@
+{
+  "winner_algorithm": "lr_elasticnet",
+  "final_hyperparameters": {
+    "model__C": 4.570563099801454,
+    "model__l1_ratio": 0.5986584841970366
+  },
+  "final_cv_score": 0.711923492530702,
+  "feature_groups": {
+    "numeric_features": [
+      "age",
+      "trestbps",
+      "chol",
+      "thalach",
+      "oldpeak"
+    ],
+    "binary_features": [
+      "sex",
+      "fbs",
+      "exang"
+    ],
+    "categorical_features": [
+      "cp",
+      "restecg",
+      "slope",
+      "thal"
+    ],
+    "ordinal_features": [
+      "ca"
+    ]
+  },
+  "training_samples": 242,
+  "target_column": "num",
+  "timestamp": "2026-05-10T21:31:04.823507+00:00",
+  "random_state": 42,
+  "model_path": "models/final_lr_elasticnet_pipeline.pkl"
+}
